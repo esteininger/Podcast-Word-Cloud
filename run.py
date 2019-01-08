@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 file_output = 'podcast.mp3'
 url = 'http://hwcdn.libsyn.com/p/6/1/f/61f9d221a13a5b75/p1220.mp3?c_id=29945528&cs_id=29945528&expiration=1545858570&hwt=282b299d3a000ad2ef5a9745c58b9e3c'
-flac_folder = '/home/ethan/Desktop/Sandbox/podcast/files/flacs'
+flac_folder = '/home'
 incr = '50'
 
 def create_file(url, file_output):
