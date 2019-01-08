@@ -8,7 +8,7 @@ This app requires Python 3+ v4+ to run, so install that first
 1. Install the dependencies:
 
 ```python
-$ pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 2. [Create a Google Speech API key](https://cloud.google.com/speech-to-text/docs/reference/libraries#client-libraries-install-python)
@@ -29,5 +29,5 @@ incr = '50'
 5. Run:
 
 ```python
-$ python run.py
+python run.py
 ```
