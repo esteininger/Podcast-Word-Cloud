@@ -60,3 +60,4 @@ python run.py
 
 ## To Do
 * Move the metadata to its own collection
+* Build a UI to support searching the podcasts
