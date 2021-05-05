@@ -11,6 +11,8 @@ Podcast transcription for rich search.
 ## Process Overview
 This script uses [wget](https://www.gnu.org/software/wget/) to download a podcast from a URL you provide. [FFmpeg](https://www.ffmpeg.org/) is used to split the podcast into configureable time increments (e.g., 10 seconds). FFmpeg is also used to covert those framents to [FLAC](https://xiph.org/flac/) files for submission to [Google Cloud Speech to Text](https://cloud.google.com/speech-to-text) for processing. As the audio segments are transcribed, the results are saved to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).  
 
+![Architecture](./images/architecture.png)
+
 ## Installation
 
 This app requires Python 3+ v4+ to run, so install that first
